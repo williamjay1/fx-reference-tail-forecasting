@@ -1,0 +1,25 @@
+﻿Evaluation,h,Cash task,Median R_ES 95%,Median R_ES 99%
+temporal_2026,1,"Assets, EUR",21.99%,22.08%
+temporal_2026,1,"Assets, USD",21.91%,22.18%
+temporal_2026,1,"Flows, EUR",22.75%,27.13%
+temporal_2026,1,"Flows, USD",23.16%,27.35%
+horizon_historical,5,"Financed treasury, EUR",21.64%,32.76%
+horizon_historical,5,"Financed treasury, USD",22.23%,34.08%
+horizon_historical,5,"Assets, EUR",26.40%,31.85%
+horizon_historical,5,"Assets, USD",26.86%,32.93%
+horizon_historical,5,"Flows, EUR",23.02%,24.71%
+horizon_historical,5,"Flows, USD",23.62%,25.61%
+horizon_historical,20,"Financed treasury, EUR",22.02%,28.13%
+horizon_historical,20,"Financed treasury, USD",22.68%,29.33%
+horizon_historical,20,"Assets, EUR",24.09%,28.10%
+horizon_historical,20,"Assets, USD",25.20%,28.72%
+horizon_historical,20,"Flows, EUR",24.85%,27.92%
+horizon_historical,20,"Flows, USD",25.22%,28.76%
+unfinanced_historical,1,"Unfinanced treasury, EUR",19.63%,25.23%
+unfinanced_historical,1,"Unfinanced treasury, USD",15.33%,26.00%
+unfinanced_historical,5,"Unfinanced treasury, EUR",21.64%,32.76%
+unfinanced_historical,5,"Unfinanced treasury, USD",13.90%,20.78%
+unfinanced_historical,20,"Unfinanced treasury, EUR",22.02%,28.13%
+unfinanced_historical,20,"Unfinanced treasury, USD",14.75%,19.99%
+unfinanced_2026,1,"Unfinanced treasury, EUR",27.36%,27.17%
+unfinanced_2026,1,"Unfinanced treasury, USD",20.33%,23.78%

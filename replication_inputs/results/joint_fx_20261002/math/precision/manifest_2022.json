@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "year": 2022,
+  "origins": [
+    "2022-09-22",
+    "2022-02-15"
+  ],
+  "risk_rows": 624,
+  "powers": [
+    12,
+    14,
+    16
+  ],
+  "seed": 20263024,
+  "parameter_sha256": "ca0954853b66f0763f48f15e8d97ce833321ae4d745c5e68554530d0d8ac5111",
+  "model_script_sha256": "64a987f50b415ebe1e055c84c9419f17db6f7b60590286552c5afa84bd54eea9",
+  "panel_sha256": "ecf719e1f39b73221c3bf1339fcb6294e26da046974b3b73e554ba85e0453dfd",
+  "no_parameter_refitting": true,
+  "runtime_seconds": 3.068150999984937,
+  "no_clipping": true,
+  "role": "numerical/stress audit, post-exposure development"
+}

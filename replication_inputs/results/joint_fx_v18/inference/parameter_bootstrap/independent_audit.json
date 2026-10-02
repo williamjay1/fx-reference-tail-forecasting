@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "total_coordinate_fit_attempts": 24000,
+  "all_three_optimizer_starts_converged": true,
+  "zero_failed_coordinate_fits": true,
+  "full_200_replicates_in_every_origin_block_task": true,
+  "maximum_baseline_difference_from_existing_v17": 9.974659986866641e-17,
+  "independently_reconstructed_risk_pairs": 720,
+  "independent_maximum_VaR_difference": 2.498001805406602e-16,
+  "independent_maximum_ES_difference": 7.806255641895632e-17,
+  "maximum_internal_bound_violation": 0.0,
+  "independent_full_range_percentile_check": true,
+  "conditional_parameter_perturbation_only": true,
+  "parameter_percentiles_not_true_ES_confidence_interval": true,
+  "script_sha256": "76b024ee61eb1e4640d39303a722fb30248639ca5077c055ac70e40a8c2a693c"
+}

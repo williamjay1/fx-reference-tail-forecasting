@@ -1,0 +1,105 @@
+{
+  "recorded_utc": "2026-10-02T06:55:28Z",
+  "stage": "before new v18 calculations, after prior exposure",
+  "exposed_2026": true,
+  "not_preregistered": true,
+  "not_independent_holdout": true,
+  "label": "specification-frozen temporal extension",
+  "currencies": [
+    "EUR",
+    "USD",
+    "GBP",
+    "JPY",
+    "CHF"
+  ],
+  "raw_sha256": "c00fd71c91d37af565c5bb8334e0b5c8c065b20b7377f965e2bb776319079a01",
+  "raw_observations_not_yet_read_by_extension_script": true,
+  "temporal_origin_year": 2026,
+  "temporal_last_record_date": "2026-09-30",
+  "temporal_holding_intervals": 1,
+  "temporal_books": {
+    "funded_assets": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "net_cashflows": [
+      0.4,
+      0.1,
+      -0.3,
+      -0.2
+    ]
+  },
+  "reports": [
+    "EUR",
+    "USD"
+  ],
+  "taus": [
+    0.95,
+    0.99
+  ],
+  "temporal_models": [
+    "HS1250",
+    "IN_FHS1250 all five references",
+    "IN_FHS_REF_POOL",
+    "EWMA_GAUSS",
+    "EWMA_SELFNORMALIZED"
+  ],
+  "parameter_cutoff": "last common reference observation of 2025; fit only last1250 prior returns",
+  "online_states": "known innovations through forecast cutoff only; empirical shocks update with known observations",
+  "no_score_based_model_selection": true,
+  "no_result_based_origin_or_book_selection": true,
+  "temporal_monte_carlo_power": 16,
+  "temporal_seed": 20261002,
+  "temporal_bootstrap_blocks": [
+    20,
+    60
+  ],
+  "horizon_origins": "all eligible 2018-2025 common reference dates",
+  "horizons": [
+    5,
+    20
+  ],
+  "horizon_books": {
+    "funded_assets": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "net_cashflows": [
+      0.4,
+      0.1,
+      -0.3,
+      -0.2
+    ],
+    "financed_treasury": [
+      0.5,
+      0.3,
+      -0.15,
+      -0.05
+    ]
+  },
+  "horizon_models": [
+    "HS1250",
+    "IN_FHS1250 all five references",
+    "IN_FHS_REF_POOL"
+  ],
+  "future_start": "A=t+1",
+  "future_endpoint": "T=t+1+h",
+  "horizon_bootstrap_blocks": [
+    20,
+    60,
+    120
+  ],
+  "primary_long_horizon_uncertainty_blocks": [
+    60,
+    120
+  ],
+  "bootstrap_draws": 5000,
+  "interpretation": "reference ranges and calibration persistence; no confirmatory superiority",
+  "annual_fits_2018_2025": "reuse verified v17 prior-only annual fits unchanged",
+  "immutable_raw_preserved": true,
+  "output_drive": "D"
+}

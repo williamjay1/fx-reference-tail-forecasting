@@ -1,0 +1,98 @@
+{
+  "input": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\internal_full\\predictions.csv",
+  "input_sha256": "277adbe922be59d819b993fdec11da9229a1ff3b70e375e86346717aa5dc1fc2",
+  "all_inputs": [
+    {
+      "path": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\internal_full\\predictions.csv",
+      "sha256": "277adbe922be59d819b993fdec11da9229a1ff3b70e375e86346717aa5dc1fc2"
+    },
+    {
+      "path": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\warmup_2013_2017\\predictions.csv",
+      "sha256": "bada6dd6e7a07066c068b678905ced294220ab6eb5da84da3f5153158698069b"
+    },
+    {
+      "path": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\full_prior_aligned\\predictions.csv",
+      "sha256": "221802ec11613605d4c1ba4ba5149937950c44bcd2efc74a9614c80ff3fc1486"
+    }
+  ],
+  "candidate_models": [
+    "HS1250",
+    "EWMA_GAUSS",
+    "EWMA_SELFNORMALIZED",
+    "IN_FHS1250",
+    "IN_TCOP1250",
+    "GARCH_CASH_T_2STEP"
+  ],
+  "pool": "reliable",
+  "selectors": [
+    [
+      "HS1250",
+      "ALL_EQUIVARIANT"
+    ],
+    [
+      "EWMA_GAUSS",
+      "ALL_EQUIVARIANT"
+    ],
+    [
+      "EWMA_SELFNORMALIZED",
+      "ALL_EQUIVARIANT"
+    ],
+    [
+      "IN_FHS1250",
+      "EUR"
+    ],
+    [
+      "IN_TCOP1250",
+      "EUR"
+    ],
+    [
+      "GARCH_CASH_T_2STEP",
+      "not_applicable"
+    ]
+  ],
+  "start_year": 2018,
+  "end_year": 2025,
+  "prior_completed_history": 900,
+  "annual_fit_records": 320,
+  "prediction_rows": 114576,
+  "skipped": [],
+  "reference_selection_records": 16,
+  "reference_skipped": [],
+  "runtime_seconds": 64.86365789998672,
+  "formula_self_check": {
+    "gradient_max_error": 7.76593567231032e-10,
+    "simplex_var_sum": 1.0,
+    "simplex_spacing_sum": 1.0000000000000002,
+    "optimized_score": -3.86073197316797,
+    "equal_score": -3.8333974790901357,
+    "optimizer": {
+      "objective": -3.86073197316797,
+      "selected_optimizer_success": true,
+      "selected_message": "Optimization terminated successfully",
+      "starts": [
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 61,
+          "objective": -3.86073197316797
+        },
+        {
+          "success": true,
+          "message": "Optimization terminated successfully",
+          "iterations": 58,
+          "objective": -3.860729432286774
+        }
+      ],
+      "ridge_var": 0.0,
+      "ridge_spacing": 0.0
+    },
+    "note": "Synthetic formula checks, not empirical risk evidence"
+  },
+  "script_sha256_at_start": "97ebe0be7490dd9fa6a7cfa2ae22664c6703e6cdf76a2b85fad3be795083868a",
+  "annual_fit_cutoff": "last common reference origin of previous year",
+  "references": {
+    "Taylor2020": "doi:10.1016/j.ijforecast.2019.05.014",
+    "TaylorWang2026": "https://arxiv.org/html/2508.16919v2"
+  },
+  "scope": "Annual prior-only adaptations to a fixed six-candidate FX pool; functional forecasts, not joint FX laws; no exact original-pool replication"
+}

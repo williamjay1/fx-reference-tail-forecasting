@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "books": 1,
+  "models": 7,
+  "origin_counts": {
+    "1": 2046,
+    "5": 2042,
+    "20": 2027
+  },
+  "predictions": 171220,
+  "all_daily_origins": true,
+  "cutoff_position_value_over_N": 0.6,
+  "eur_quantity_zero": true,
+  "parameter_hashes": {
+    "2018": "4eee6e78be41d37f4c22b4e3af8d31ea325a26cd8e8f9cff5baff95475fba209",
+    "2019": "567538d32e37122386e683f18e96b6559fe1810c9f464dfd3ad9d24f2533842f",
+    "2020": "ff865d8aa611e2476c759f52fe424505c549bdbede8ebcf760728b3a2ca40867",
+    "2021": "3e2e2389439da21bbfe2c0b266314f138615dd945bf167a75608847bb67773f1",
+    "2022": "ca0954853b66f0763f48f15e8d97ce833321ae4d745c5e68554530d0d8ac5111",
+    "2023": "968e77012b9bfe6bb5831db54beec558d291711bd5e94ae588710f8786770b9b",
+    "2024": "b650ab0706b8e7c99d8f484cf25648cd33900efbd37bd3fa3171dbdf81569726",
+    "2025": "556fc27681f88899802809f4f3b5faa5d657dce62a1547bf47b71629644f0758"
+  },
+  "prediction_sha256": "e51ecfc2da49ca48c8f37b839652cb31e39f7cb87a4a09e913e750a3d7465217",
+  "script_sha256": "96f29c3783c9d430cb6dcde53cd71fcd6bc24fa5fa73f2dc060db42bf233f2fd",
+  "maximum_realized_formula_error": 4.211041237933699e-16,
+  "maximum_relative_identity_error": 2.8709673527416157e-16,
+  "snapshot_non_executable_prices": true,
+  "no_score_selection": true,
+  "confirmatory": false,
+  "runtime_seconds_cumulative": 52.89769789998536
+}

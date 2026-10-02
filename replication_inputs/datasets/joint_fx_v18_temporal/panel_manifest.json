@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "raw_sha256": "c00fd71c91d37af565c5bb8334e0b5c8c065b20b7377f965e2bb776319079a01",
+  "panel_sha256": "ab3a034a51c0b464b2e02f10af8dc28d5df55900c1252cdc18f5a3aef35d8f10",
+  "first_date": "1999-01-04",
+  "last_date": "2026-09-30",
+  "dates": 7104,
+  "v17_prefix_error": 0.0,
+  "snapshot_not_vintage": true,
+  "raw_unchanged": true,
+  "filter_status": "A",
+  "positive_only": true
+}

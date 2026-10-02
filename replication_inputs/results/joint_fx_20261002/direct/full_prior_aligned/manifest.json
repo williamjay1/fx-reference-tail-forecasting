@@ -1,0 +1,23 @@
+{
+  "input": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\data\\outcome_tasks.csv",
+  "input_sha256": "1d73fd9dbb4cd36e35ab124df821333cb3c1307d153bd1f8fdbf6cb8a01c6097",
+  "start_year": 2018,
+  "end_year": 2025,
+  "cash_garch_annual_fit_records": 32,
+  "prediction_rows": 49104,
+  "skipped": [],
+  "runtime_seconds": 344.6554865000071,
+  "first_step_draws": 4096,
+  "label_clock": "last completed y origin t-2; forecast two scalar GARCH states",
+  "training_window": 1250,
+  "second_step": "analytic Student-t conditional tail integration",
+  "scope": "Direct normalized cash-loss marginals; not a joint FX scenario law",
+  "formula_checks": {
+    "analytic_t_qes_max_error": 1.4016565685892601e-15,
+    "two_step_variance_response_verified": true,
+    "note": "Synthetic formula/state checks; not empirical prediction evidence"
+  },
+  "script_sha256_at_start": "60a7a8ffb73babd92150060afc4b7775005a1cf4c1796736a1252f72646031d7",
+  "shared_model_sha256_at_start": "c79aef4fdc672a9a92a2e46e4a148ff23cb6c6f96d1305548475c036100b946a",
+  "annual_fit_cutoff": "last common reference origin of previous year"
+}

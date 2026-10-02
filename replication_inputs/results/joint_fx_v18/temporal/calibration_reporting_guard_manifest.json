@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "policy": "zero/all-event empirical HAC intervals withheld; counts retained; no confidence claim from[0,0]",
+  "reports": [
+    {
+      "directory": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\temporal",
+      "n_degenerate_interval_rows_withheld": 12,
+      "source_sha256": "b566b2127552202fa16bab31c532a6bec4d113739e761baa9fd377f6b8fb3232",
+      "reporting_output_sha256": "26fa2e021dcb08804c3b9a56817aecc6507bc68978479f5984cc4be889000e2a"
+    },
+    {
+      "directory": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\horizons",
+      "n_degenerate_interval_rows_withheld": 0,
+      "source_sha256": "3ca2f86ac3d80aae80b86f406462d6a6211569b74c9017d78019ebd2f76c95c8",
+      "reporting_output_sha256": "0fd57f91d262a11b94d71a0fc7e9fdef332970caa84c2474c26d5f324db716c9"
+    },
+    {
+      "directory": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\temporal\\unfinanced_treasury",
+      "n_degenerate_interval_rows_withheld": 4,
+      "source_sha256": "e0203b93c1eb585ee9397e67b5f3192720203b2a9646d84bf817afe3e9340b33",
+      "reporting_output_sha256": "c040fdbbe64c0c704257224900866f96feb4be1dc9eb023cc3a106cc1c2dff4f"
+    },
+    {
+      "directory": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\horizons\\unfinanced_treasury",
+      "n_degenerate_interval_rows_withheld": 0,
+      "source_sha256": "8c50223b70c33a062bafa6c578e8839d9da2cead4976971247706c87e2091f5a",
+      "reporting_output_sha256": "b8f7df1103437a8aa19f1ae45da530ffe7eea646145d478bd84cdeba59dbc955"
+    }
+  ],
+  "pvalues_not_added": true,
+  "sparse99tail_limits_retained": true
+}

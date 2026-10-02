@@ -1,0 +1,23 @@
+{
+  "status": "built_and_cash_identity_checked",
+  "raw": "F:\\AcademicData\\FXTailRisk\\raw\\joint_revision_20261002\\ecb_EXR_USD_GBP_JPY_CHF_retrieved_20261002_v1.csv",
+  "raw_sha256": "c00fd71c91d37af565c5bb8334e0b5c8c065b20b7377f965e2bb776319079a01",
+  "source_dates": 6913,
+  "first_date": "1999-01-04",
+  "last_date": "2025-12-31",
+  "currencies": [
+    "EUR",
+    "USD",
+    "GBP",
+    "JPY",
+    "CHF"
+  ],
+  "outcome_rows": 27640,
+  "max_cash_formula_or_identity_error": 4.3176318640161804e-16,
+  "cutoff": "planned 18:00 UTC after expected publication, not observed historical first-release timestamps",
+  "target": "future start next common reference date, endpoint subsequent date, fixed quantities at cutoff",
+  "snapshot_not_realtime_vintage": true,
+  "exposed_period": true,
+  "panel_sha256": "ecf719e1f39b73221c3bf1339fcb6294e26da046974b3b73e554ba85e0453dfd",
+  "tasks_sha256": "1d73fd9dbb4cd36e35ab124df821333cb3c1307d153bd1f8fdbf6cb8a01c6097"
+}

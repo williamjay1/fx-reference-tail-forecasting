@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "precision_origins": 96,
+  "precision_rows": 3840,
+  "pit_origins": 2046,
+  "pit_rows": 24552,
+  "runtime_seconds": 184.41146730000037,
+  "origin_selection": "middle eligible forecast date of every calendar month2018\u20132025",
+  "source_sha256": "4e19a2672e6d474d2a84d5cf1708d88d5866144ec1a5a38042d3b8e9f6714221",
+  "max_native_tcop_relative_es_change": 0.016684467913465253,
+  "pit_definition": "mid distribution function at observed cashloss; realized losses are not tied with model atoms",
+  "exact_mixture_paths": 6245,
+  "numerical_sizes": [
+    65536,
+    262144
+  ],
+  "inference": "exploratory conditional on frozen recorded specs"
+}

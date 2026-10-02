@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "method": "HLN2011 T_R coherent elimination",
+  "reps": 5000,
+  "seed": 20261002,
+  "retrospective_extensions_not_independent_confirmatory": true,
+  "bootstrap_conditions_on_recorded_forecasts": true,
+  "horizon20_blocks_include120": true,
+  "temporal_short_sample_and_sparse_q99_not_validation_of_calibration": true,
+  "source_sha256": {
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\temporal\\predictions.csv": "109b09eca9b0c7149e952c2bc56aaf5978d27e23d9bf851702d67662c88a8429",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\horizons\\predictions.csv": "7ae2ee85d016c17341954d30d6c4b6d139ae6da8b873632ae980915882389875"
+  },
+  "script_sha256": "404dca42bbc04ed4c6b9a6ec6e8ed7f3cd5a79f885ab420d0144e7aeb79e7d11",
+  "runtime_seconds": 3.1745234000263736
+}

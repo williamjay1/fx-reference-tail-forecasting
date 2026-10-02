@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "horizon_origins": {
+    "5": 2042,
+    "20": 2027
+  },
+  "predictions": 341796,
+  "models": 7,
+  "full_daily_origins": true,
+  "books": {
+    "funded_assets": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "net_cashflows": [
+      0.4,
+      0.1,
+      -0.3,
+      -0.2
+    ],
+    "financed_treasury": [
+      0.5,
+      0.3,
+      -0.15,
+      -0.05
+    ]
+  },
+  "treasury_definition": "Fixed at cutoff: +0.5N USD, +0.3N GBP, -0.15N JPY, -0.05N CHF values and -0.6N EUR financing; cash-flow risk, no interest/carry/delta.",
+  "future_start": "t+1",
+  "endpoint": "t+1+h",
+  "sample_window": 1250,
+  "scenario_per_reference": {
+    "5": 1245,
+    "20": 1230
+  },
+  "mixture_scenarios": {
+    "5": 6225,
+    "20": 6150
+  },
+  "preserve_adjacent_shock_blocks": true,
+  "sequential_variance_recursion": true,
+  "runtime_seconds": 97.67410140001448,
+  "parameter_source_sha256": {
+    "2018": "4eee6e78be41d37f4c22b4e3af8d31ea325a26cd8e8f9cff5baff95475fba209",
+    "2019": "567538d32e37122386e683f18e96b6559fe1810c9f464dfd3ad9d24f2533842f",
+    "2020": "ff865d8aa611e2476c759f52fe424505c549bdbede8ebcf760728b3a2ca40867",
+    "2021": "3e2e2389439da21bbfe2c0b266314f138615dd945bf167a75608847bb67773f1",
+    "2022": "ca0954853b66f0763f48f15e8d97ce833321ae4d745c5e68554530d0d8ac5111",
+    "2023": "968e77012b9bfe6bb5831db54beec558d291711bd5e94ae588710f8786770b9b",
+    "2024": "b650ab0706b8e7c99d8f484cf25648cd33900efbd37bd3fa3171dbdf81569726",
+    "2025": "556fc27681f88899802809f4f3b5faa5d657dce62a1547bf47b71629644f0758"
+  },
+  "panel_sha256": "ab3a034a51c0b464b2e02f10af8dc28d5df55900c1252cdc18f5a3aef35d8f10",
+  "prediction_sha256": "7ae2ee85d016c17341954d30d6c4b6d139ae6da8b873632ae980915882389875",
+  "script_sha256": "085d7214db8559ee3e92810520f92aa5643d9f70d3f5c05bfc93b4f3f84475c1",
+  "helper_sha256": "19d77f60a075d6d7728208b50efd724a40836fb51c44fb88945fe57facc11233",
+  "maximum_realized_formula_error": 4.211041237933699e-16,
+  "maximum_scenario_identity_error": 3.7730235602495554e-17,
+  "maximum_relative_scenario_identity_error": 3.7730235602495554e-17,
+  "exact_enumeration": true,
+  "no_monte_carlo": true,
+  "no_configuration_selection": true,
+  "historical_reanalysis": true,
+  "confirmatory": false,
+  "cutoff": "planned18UTC; no first-release vintage or executable prices"
+}

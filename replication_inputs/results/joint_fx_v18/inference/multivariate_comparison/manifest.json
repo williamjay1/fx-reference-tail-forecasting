@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "evaluation_origins": 2046,
+  "models_compared": [
+    "IN_FHS_REF_POOL",
+    "SCALAR_BEKK_INTERNAL"
+  ],
+  "candidate_family_sizes": [
+    35,
+    42
+  ],
+  "bootstrap_draws": 5000,
+  "blocks": [
+    20,
+    60
+  ],
+  "seed": 20261002,
+  "score_difference": "mixture_minus_BEKK; negative favours mixture",
+  "task_tail_simultaneous_family": 8,
+  "whole_date_tail_simultaneous_family": 2,
+  "MCS_statistic": "HLN2011 T_R with coherent max_i max_j studentized elimination",
+  "MCS_confidence": 0.95,
+  "conditional_on_stored_forecasts": true,
+  "refitting_bootstrap": false,
+  "historical_reanalysis": true,
+  "standalone_IN_TCOP_diagnostic_in_all_42": true,
+  "established_combinations_may_contain_recorded_TCOP": true,
+  "calibration_pvalues_unadjusted": true,
+  "sparse_tail_pvalues_withheld_below_30_breaches": true,
+  "empty_empirical_breach_variance_HAC_intervals_withheld": true,
+  "forecast_audit": {
+    "target_max_abs_difference": 1.0061396160665481e-16,
+    "FZ0_max_abs_recalculation_error": 0.0,
+    "identical_start_and_target_dates": true,
+    "prior_fit_cutoffs": true,
+    "new_ties": 0
+  },
+  "MCS_independent_toy_audit": {
+    "status": "PASS",
+    "scalar_mcs_max_pvalue_discrepancy": 0.0,
+    "block_means_max_difference": 2.220446049250313e-16,
+    "bad_model_excluded": true,
+    "common_date_shift_and_positive_scale_invariance": true
+  },
+  "artifact_audit": {
+    "BEKK_closure_rows": 40,
+    "BEKK_annual_fits": 8,
+    "BEKK_attempts": 24,
+    "BEKK_failed_starts": 0,
+    "BEKK_max_covariance_closure_error": 1.1102230246251565e-15,
+    "BEKK_max_likelihood_offset_error": 1.7763568394002505e-15,
+    "BEKK_max_squared_radius_closure_error": 2.8421709430404007e-13,
+    "BEKK_max_gradient_difference": 3.239264770839841e-10,
+    "BEKK_precision_origins": 24,
+    "BEKK_precision_rows": 192,
+    "BEKK_max_absolute_relative_ES_change": 0.010705974582255997,
+    "BEKK_precision_low_forecast_VaR_max_error": 0.0,
+    "BEKK_precision_low_forecast_ES_max_error": 0.0,
+    "BEKK_precision_max_abs_score_change": 0.2263441811858078,
+    "BEKK_precision_breach_flips": 0,
+    "expanded_tcop_precision_origins": 96,
+    "expanded_tcop_precision_rows": 3840,
+    "expanded_tcop_max_absolute_relative_ES_change": 0.016684467913465253,
+    "empirical_PIT_midCDF_ties": 0,
+    "total_PIT_rows": 32736,
+    "max_PIT_threshold_hit_disagreements": 0,
+    "source_hashes_verified": true,
+    "exact_empirical_risk_reconstruction": [
+      {
+        "model": "HS1250",
+        "max_VaR_reconstruction_error": 9.974659986866641e-17,
+        "max_ES_reconstruction_error": 1.0061396160665481e-16
+      },
+      {
+        "model": "IN_FHS1250_EUR",
+        "max_VaR_reconstruction_error": 1.0061396160665481e-16,
+        "max_ES_reconstruction_error": 1.0061396160665481e-16
+      },
+      {
+        "model": "IN_FHS_REF_POOL",
+        "max_VaR_reconstruction_error": 1.0061396160665481e-16,
+        "max_ES_reconstruction_error": 1.0061396160665481e-16
+      }
+    ]
+  },
+  "runtime_seconds": 14.388865699991584,
+  "sources": {
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\internal_full\\predictions.csv": "277adbe922be59d819b993fdec11da9229a1ff3b70e375e86346717aa5dc1fc2",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\scenario_v2\\predictions.csv": "2de4f7b06c6a869920a0f96a155504ce20190734f22b4c8c17f49ce8d155bb5d",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\warmup_2013_2017\\predictions.csv": "bada6dd6e7a07066c068b678905ced294220ab6eb5da84da3f5153158698069b",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\full_prior_aligned\\predictions.csv": "221802ec11613605d4c1ba4ba5149937950c44bcd2efc74a9614c80ff3fc1486",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\combination\\full_reliable_v2\\predictions.csv": "a8debfa38e895ed5b47752109201c4ad4c129e73bd30953f872f040ff4dd8e7d",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\multivariate\\full16\\closure_checks.csv": "6476a558ec8afed452f8fa8445d04cb4b68f8980d54dad06ffc355618dad79fa",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\multivariate\\full16\\manifest.json": "e2d61dca750ed07f2b41f8b71a391ad206f1c62b3f84560f527a9c07fda83188",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\multivariate\\full16\\parameters.json": "8bf93862bc2fc242d02c991ca9d0185257c71d3d6c17142a1232ce7ecfb0c426",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\multivariate\\full16\\pit.csv": "21625124ed6d4fea82be446fef65037773204fa26c56662079fb6184f48d7656",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\multivariate\\full16\\precision.csv": "487cc9d0af9c7196ef16d4274b71c6d700fc62d56927d23c629da5f82b38c715",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\multivariate\\full16\\predictions.csv": "c55be1f7f0974d3eb4ce904061a000308a6a1b16d445e5109a615ebe6737d8f2",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\pit_precision\\full96\\manifest.json": "6a599488575234422dac132bfb27dbd9b4ab7bb858b3d53641f5c93793e444dd",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\pit_precision\\full96\\manuscript_pit_summary.csv": "7cf855ef7d643763cb477b0619e8713407de57cf2cd9b55ff8a6177d759d11e1",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\pit_precision\\full96\\pit.csv": "224807b1301d8ed90c69c5cbbc93f9209f90873c8f9b2f5d835a1e8fa212b8d4",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\pit_precision\\full96\\precision.csv": "9d1244b67e14cf30c148db306a19c41e34dc84b0eff76abd8ac37aa2a265b7e2",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\pit_precision\\full96\\tail_leverage.csv": "4d586edf44dabdc22e853b2fa044e83152a095332fe3578d0fb3d0f3c4d2addd"
+  },
+  "script_sha256": "b7b3440ce0694098675ea77a93457a12bb2dbe44a64b91062df895ed452123be"
+}

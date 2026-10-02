@@ -1,0 +1,9 @@
+﻿Candidate family,Tail,"Retained, blocks 20 / 60","Mixture inclusion p, 20 / 60"
+all_41,95%,33 / 33,0.381 / 0.359
+exclude_standalone_IN_TCOP,95%,28 / 28,0.363 / 0.359
+all_41,99%,36 / 36,0.877 / 0.862
+exclude_standalone_IN_TCOP,99%,29 / 28,0.877 / 0.862
+42: all plus BEKK,95%,33 / 33,0.381 / 0.359
+35: exclude standalone IN-TCOP,95%,28 / 28,0.363 / 0.359
+42: all plus BEKK,99%,36 / 37,0.877 / 0.862
+35: exclude standalone IN-TCOP,99%,29 / 30,0.877 / 0.862

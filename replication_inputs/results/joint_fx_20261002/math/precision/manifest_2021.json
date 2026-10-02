@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "year": 2021,
+  "origins": [
+    "2021-08-16"
+  ],
+  "risk_rows": 312,
+  "powers": [
+    12,
+    14,
+    16
+  ],
+  "seed": 20263023,
+  "parameter_sha256": "3e2e2389439da21bbfe2c0b266314f138615dd945bf167a75608847bb67773f1",
+  "model_script_sha256": "64a987f50b415ebe1e055c84c9419f17db6f7b60590286552c5afa84bd54eea9",
+  "panel_sha256": "ecf719e1f39b73221c3bf1339fcb6294e26da046974b3b73e554ba85e0453dfd",
+  "no_parameter_refitting": true,
+  "runtime_seconds": 1.769514799991157,
+  "no_clipping": true,
+  "role": "numerical/stress audit, post-exposure development"
+}

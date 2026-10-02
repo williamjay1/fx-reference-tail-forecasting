@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "historical_exploratory_reanalysis": true,
+  "method": "HLN2011 T_R coherent max_i max_j elimination",
+  "bootstrap": "fixed circular date blocks",
+  "bootstrap_reps": 5000,
+  "bootstrap_blocks": [
+    20,
+    60
+  ],
+  "seed": 20261002,
+  "n_dates": 2046,
+  "configurations": 41,
+  "tasks_per_date": 4,
+  "tails": [
+    0.95,
+    0.99
+  ],
+  "parameter_refitting": false,
+  "research_design_selection_uncertainty_included": false,
+  "all_41_conditions_on_recorded_MC_values": true,
+  "restricted_34_excludes_standalone_IN_TCOP_but_combinations_contain_recorded_IN_TCOP_member": true,
+  "margin_sensitivity_exploratory_not_prespecified_economic_equivalence": true,
+  "mcs_theory_requires_stationary_mixing_loss_differentials_with_finite_higher_moments": true,
+  "mcs_pvalue_not_probability_best": true,
+  "variance_decomposition_descriptive_not_ANOVA_test": true,
+  "numerical_audit": {
+    "status": "PASS",
+    "scalar_mcs_max_pvalue_discrepancy": 0.0,
+    "block_means_max_difference": 2.220446049250313e-16,
+    "bad_model_excluded": true,
+    "common_date_shift_and_positive_scale_invariance": true
+  },
+  "sources": {
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\internal_full\\predictions.csv": "277adbe922be59d819b993fdec11da9229a1ff3b70e375e86346717aa5dc1fc2",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\scenario_v2\\predictions.csv": "2de4f7b06c6a869920a0f96a155504ce20190734f22b4c8c17f49ce8d155bb5d",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\warmup_2013_2017\\predictions.csv": "bada6dd6e7a07066c068b678905ced294220ab6eb5da84da3f5153158698069b",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\full_prior_aligned\\predictions.csv": "221802ec11613605d4c1ba4ba5149937950c44bcd2efc74a9614c80ff3fc1486",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\combination\\full_reliable_v2\\predictions.csv": "a8debfa38e895ed5b47752109201c4ad4c129e73bd30953f872f040ff4dd8e7d"
+  },
+  "script_sha256": "8349d8bb96ec4cfabb1138515cb352ca2d98938ce2d4826139f9f327f171ee48",
+  "runtime_seconds": 16.616099800012307,
+  "output_label_revision": "No unsupported economic-equivalence label"
+}

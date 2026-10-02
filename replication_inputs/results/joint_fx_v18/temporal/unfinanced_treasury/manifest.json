@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "books": 1,
+  "models": 7,
+  "origin_counts": {
+    "1": 189
+  },
+  "predictions": 5292,
+  "all_daily_origins": true,
+  "cutoff_position_value_over_N": 0.6,
+  "eur_quantity_zero": true,
+  "parameter_hashes": {
+    "2026": "4f67e9b99f35c2c6d12662b34e521544f469e706a78df7d9ee6cebe106ec50f2"
+  },
+  "prediction_sha256": "9f19e57d743ef4fc5c60385dbac7fe6ca54a9f6a7d0b05c382a036217bc44550",
+  "script_sha256": "96f29c3783c9d430cb6dcde53cd71fcd6bc24fa5fa73f2dc060db42bf233f2fd",
+  "maximum_realized_formula_error": 3.6678559495184615e-16,
+  "maximum_relative_identity_error": 2.797512655555723e-16,
+  "snapshot_non_executable_prices": true,
+  "no_score_selection": true,
+  "confirmatory": false,
+  "runtime_seconds_cumulative": 54.554670899990015
+}

@@ -1,0 +1,93 @@
+{
+  "primary_score_difference": {
+    "q95": -0.030527760556945532,
+    "q99": -0.08842934664896733
+  },
+  "all_eight_contrast_intervals_cross_zero_with_block60": true,
+  "q99_BEKK_included_block60": true,
+  "any_claim_of_economic_equivalence": false,
+  "all_annual_differences": [
+    {
+      "year": 2018,
+      "tau": 0.95,
+      "mixture_minus_BEKK": -0.09867724460791294
+    },
+    {
+      "year": 2018,
+      "tau": 0.99,
+      "mixture_minus_BEKK": -0.11889452565362557
+    },
+    {
+      "year": 2019,
+      "tau": 0.95,
+      "mixture_minus_BEKK": -0.10973312500214583
+    },
+    {
+      "year": 2019,
+      "tau": 0.99,
+      "mixture_minus_BEKK": -0.09777166290241901
+    },
+    {
+      "year": 2020,
+      "tau": 0.95,
+      "mixture_minus_BEKK": 0.04232712530040228
+    },
+    {
+      "year": 2020,
+      "tau": 0.99,
+      "mixture_minus_BEKK": 0.014632880581116225
+    },
+    {
+      "year": 2021,
+      "tau": 0.95,
+      "mixture_minus_BEKK": 0.016475940844981274
+    },
+    {
+      "year": 2021,
+      "tau": 0.99,
+      "mixture_minus_BEKK": 0.05351293883019803
+    },
+    {
+      "year": 2022,
+      "tau": 0.95,
+      "mixture_minus_BEKK": -0.06762891794363135
+    },
+    {
+      "year": 2022,
+      "tau": 0.99,
+      "mixture_minus_BEKK": -0.37963156895272077
+    },
+    {
+      "year": 2023,
+      "tau": 0.95,
+      "mixture_minus_BEKK": -0.0001753162173798728
+    },
+    {
+      "year": 2023,
+      "tau": 0.99,
+      "mixture_minus_BEKK": -0.01628700077494738
+    },
+    {
+      "year": 2024,
+      "tau": 0.95,
+      "mixture_minus_BEKK": -0.03891790477213242
+    },
+    {
+      "year": 2024,
+      "tau": 0.99,
+      "mixture_minus_BEKK": -0.14009260798479417
+    },
+    {
+      "year": 2025,
+      "tau": 0.95,
+      "mixture_minus_BEKK": 0.01163756276465211
+    },
+    {
+      "year": 2025,
+      "tau": 0.99,
+      "mixture_minus_BEKK": -0.022376868090772994
+    }
+  ],
+  "primary_outputs_manifest_sha256": "871d95973c0ad8914525f0e294ca92a06bda79ca50db548b9b98868782ac0fc9",
+  "reporting_script_sha256": "e10a37357d9995edc6c81aab7e224cdbcf7709f616d4637feac393d1e96860f0"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scalar_mcs_max_pvalue_discrepancy": 0.0,
+  "block_means_max_difference": 2.220446049250313e-16,
+  "bad_model_excluded": true,
+  "common_date_shift_and_positive_scale_invariance": true
+}

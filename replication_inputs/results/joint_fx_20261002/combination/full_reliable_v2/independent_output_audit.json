@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "scope": "Independent standard-library CSV arithmetic, support, clock, source label, weight and annual reference selection audit. Does not retrain algorithms, certify global optima or independently verify upstream scenario integration.",
+  "prediction_rows": 114576,
+  "unique_keys": 114576,
+  "annual_functional_weight_records": 320,
+  "annual_reference_selection_records": 16,
+  "dates_per_model_and_quantile": 2046,
+  "model_row_counts": {
+    "TAYLOR_OPT": 16368,
+    "TW_RELATIVE": 16368,
+    "TW_MIN_RIDGE": 16368,
+    "FUNCTIONAL_EQUAL": 16368,
+    "PAST_BEST": 16368,
+    "IN_FHS_REF_PAST_BEST": 16368,
+    "IN_TCOP_REF_PAST_BEST": 16368
+  },
+  "maximum_absolute_errors": {
+    "source_actual_agreement": 1.0061396160665481e-16,
+    "var_simplex_sum": 2.220446049250313e-16,
+    "spacing_simplex_sum": 2.220446049250313e-16,
+    "stored_fitted_objective": 1.7763568394002505e-15,
+    "relative_objective": 1.7763568394002505e-15,
+    "relative_rule_weights": 1.1102230246251565e-16,
+    "selected_ridge_validation_score": 0.0,
+    "equal_weights": 0.0,
+    "reference_prior_mean_score": 1.865174681370263e-14,
+    "emitted_FZ0": 0.0,
+    "emitted_actual_vs_outcome_source": 1.9992688060632702e-16,
+    "emitted_weight_reconstruction_var": 1.734723475976807e-18,
+    "emitted_weight_reconstruction_es": 3.469446951953614e-18
+  },
+  "selected_optimizer_statuses": {
+    "TAYLOR_OPT": {
+      "True": 64
+    },
+    "TW_MIN_RIDGE": {
+      "True": 64
+    }
+  },
+  "main_fit_start_statuses": {
+    "TAYLOR_OPT": {
+      "True": 128
+    },
+    "TW_MIN_RIDGE": {
+      "True": 128
+    }
+  },
+  "ridge_validation_training_fit_statuses": {
+    "True": 1600
+  },
+  "relative_boundary_counts": {
+    "local_refinement": 37,
+    "grid": 25,
+    "infinite_lambda_limit": 2
+  },
+  "reference_choice_counts": {
+    "IN_FHS_REF_PAST_BEST": {
+      "USD": 5,
+      "EUR": 1,
+      "JPY": 2
+    },
+    "IN_TCOP_REF_PAST_BEST": {
+      "USD": 4,
+      "EUR": 1,
+      "JPY": 3
+    }
+  },
+  "prediction_sha256": "a8debfa38e895ed5b47752109201c4ad4c129e73bd30953f872f040ff4dd8e7d",
+  "audit_script_sha256": "33281ec8690b6818a1af3c344dd88fdc440f1e248eee883dd04442d3c943f9df"
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "numba": "0.67.0",
+    "matplotlib": "3.11.1",
+    "Pillow": "12.3.0",
+    "PyMuPDF": "1.28.2"
+  },
+  "tested_platform": "Windows, author workstation",
+  "cross_platform_numerical_validation": false
+}

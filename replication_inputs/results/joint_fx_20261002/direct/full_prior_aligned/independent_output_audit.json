@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Independent standard-library reconstruction of emitted scores, support, domains, cutoff labels and precision summaries; does not refit GARCH or recompute Sobol integration",
+  "prediction_rows_checked": 49104,
+  "unique_prediction_keys": 49104,
+  "annual_fits_checked": 32,
+  "score_max_abs_error": 0.0,
+  "actual_loss_max_abs_error": 9.996344030316351e-17,
+  "min_fitted_nu": 4.033538942126761,
+  "min_converged_starts": 3,
+  "precision": {
+    "0.95": {
+      "checks": 96,
+      "max_abs_var_difference": 1.4630158573355687e-06,
+      "max_abs_es_difference": 6.910545016548114e-06,
+      "max_relative_var_difference": 0.00032016643963393276,
+      "max_relative_es_difference": 0.000890687255140661
+    },
+    "0.99": {
+      "checks": 96,
+      "max_abs_var_difference": 6.265143914481117e-06,
+      "max_abs_es_difference": 2.3674777505056435e-05,
+      "max_relative_var_difference": 0.0007837122250757051,
+      "max_relative_es_difference": 0.0021152526094885067
+    }
+  },
+  "errors": [],
+  "prediction_sha256": "221802ec11613605d4c1ba4ba5149937950c44bcd2efc74a9614c80ff3fc1486"
+}

@@ -1,0 +1,9 @@
+﻿Cash task,Tail,Median R_ES,Pointwise 95% median interval,90th / 99th percentiles
+"funded assets, EUR",95%,26.11%,"[21.67%, 30.20%]",47.55% / 67.49%
+"funded assets, EUR",99%,29.81%,"[25.40%, 35.66%]",49.89% / 71.05%
+"funded assets, USD",95%,26.34%,"[21.91%, 30.44%]",47.91% / 68.20%
+"funded assets, USD",99%,30.12%,"[25.79%, 36.16%]",50.80% / 72.15%
+"net cashflows, EUR",95%,22.54%,"[19.74%, 25.44%]",37.64% / 59.60%
+"net cashflows, EUR",99%,26.36%,"[24.27%, 29.11%]",40.80% / 57.53%
+"net cashflows, USD",95%,22.84%,"[19.93%, 25.66%]",38.01% / 61.14%
+"net cashflows, USD",99%,26.87%,"[24.55%, 29.77%]",41.90% / 58.78%

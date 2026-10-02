@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "origins": 2046,
+  "records": 16368,
+  "runtime_seconds": 10.838917399989441,
+  "exact_paths_per_reference": 1249,
+  "bound_violations": 0,
+  "source_sha256": "0078cbb46f3167ffb214c70e66b93621663e4122a0b535ca582a609fcef2ad4b"
+}

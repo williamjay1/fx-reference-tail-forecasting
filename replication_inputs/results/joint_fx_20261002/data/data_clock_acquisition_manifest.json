@@ -1,0 +1,62 @@
+{
+  "review_date": "2026-10-02",
+  "role": "joint_fx_data_clock",
+  "existing_sources_modified": false,
+  "models_fitted": 0,
+  "full_h10_vintage_reconstruction_completed": false,
+  "new_raw_files": [
+    {
+      "path": "F:\\AcademicData\\FXTailRisk\\raw\\joint_revision_20261002\\ecb_EXR_USD_GBP_JPY_CHF_retrieved_20261002_v1.csv",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD+GBP+JPY+CHF.EUR.SP00.A?format=csvdata",
+      "retrieval_date": "2026-10-02",
+      "bytes": 6085180,
+      "sha256": "c00fd71c91d37af565c5bb8334e0b5c8c065b20b7377f965e2bb776319079a01",
+      "readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\FXTailRisk\\raw\\joint_revision_20261002\\fed_h10_releaseDates_retrieved_20261002_v1.json",
+      "url": "https://www.federalreserve.gov/releases/h10/releaseDates.json",
+      "retrieval_date": "2026-10-02",
+      "bytes": 72879,
+      "sha256": "f7312d912227877c4533e35067303032c99c6fac976298ef29873dfcaffed514",
+      "readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\FXTailRisk\\raw\\joint_revision_20261002\\fed_h10_20180115_archive_retrieved_20261002_v1.html",
+      "url": "https://www.federalreserve.gov/releases/h10/20180115/",
+      "retrieval_date": "2026-10-02",
+      "bytes": 74612,
+      "sha256": "6313045d2085f2958052272aa16a972404ee5e92b6b813b79587df41b8ce1f73",
+      "readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\FXTailRisk\\raw\\joint_revision_20261002\\fed_h10_20180828_archive_retrieved_20261002_v1.html",
+      "url": "https://www.federalreserve.gov/releases/h10/20180828/",
+      "retrieval_date": "2026-10-02",
+      "bytes": 75676,
+      "sha256": "8f052f974957bb3e7ae06fe8c1ab11fe6605da28b9cf9588489edd92989db510",
+      "readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\FXTailRisk\\raw\\joint_revision_20261002\\fed_h10_20250121_archive_retrieved_20261002_v1.html",
+      "url": "https://www.federalreserve.gov/releases/h10/20250121/",
+      "retrieval_date": "2026-10-02",
+      "bytes": 93282,
+      "sha256": "557a649e56046e72383cde8da8b369301b3fb235ab3850e3c82a5b92db5b8c4f",
+      "readonly": true
+    },
+    {
+      "path": "F:\\AcademicData\\FXTailRisk\\raw\\joint_revision_20261002\\fed_h10_announcements_retrieved_20261002_v1.html",
+      "url": "https://www.federalreserve.gov/feeds/H10.html",
+      "retrieval_date": "2026-10-02",
+      "bytes": 119911,
+      "sha256": "3c78989b3a819461acaa0ef07e7c49b54a31e16aec086743080af765fbb07dd8",
+      "readonly": true
+    }
+  ],
+  "new_raw_total_bytes": 6521540,
+  "report": {
+    "path": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\data\\DATA_CLOCK_REVIEW.md",
+    "sha256": "7ec72be63e096857daa3812f4163589f58b62b480eb78da0c5452d6f7783ac30"
+  }
+}

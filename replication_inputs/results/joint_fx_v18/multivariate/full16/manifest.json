@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "origins": 2046,
+  "predictions": 16368,
+  "power": 16,
+  "runtime_seconds": 120.35865109998849,
+  "pilot": false,
+  "seed": 20261003,
+  "law": "covariance-targeted scalar BEKK plus post-innovation internal empirical radial rescaled to mean squared radius4",
+  "references": "joint law fitted in EUR and transformed; full likelihood/state closure numerically checked across allfivebasis",
+  "minimum_converged_starts": 3,
+  "max_closure_error": 1.1102230246251565e-15,
+  "max_likelihood_offset_error": 1.7763568394002505e-15,
+  "max_precision_relative_es_change": 0.010705974582255997,
+  "source_sha256": "6246c37849058087499f709e5d279d65848e54eddeab909431991ff3f8897dbb"
+}

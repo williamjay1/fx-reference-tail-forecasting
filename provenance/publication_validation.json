@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "origins": [
+    "2018-01-02",
+    "2020-03-17"
+  ],
+  "scenario_power": 16,
+  "panel_reconstruction": {
+    "rows": 6913,
+    "numeric_max_absolute_errors": {
+      "EUR": 0.0,
+      "USD": 0.0,
+      "GBP": 0.0,
+      "JPY": 0.0,
+      "CHF": 0.0
+    }
+  },
+  "outcome_reconstruction": {
+    "rows": 27640,
+    "numeric_max_absolute_errors": {
+      "actual_loss": 0.0,
+      "reference_notional": 0.0,
+      "quantity_EUR": 0.0,
+      "quantity_USD": 0.0,
+      "quantity_GBP": 0.0,
+      "quantity_JPY": 0.0,
+      "quantity_CHF": 0.0,
+      "identity_residual": 0.0,
+      "lead_calendar_days": 0.0,
+      "holding_calendar_days": 0.0
+    }
+  },
+  "forecast_reconstruction": {
+    "rows": 240,
+    "numeric_max_absolute_errors": {
+      "tau": 0.0,
+      "actual_loss": 9.996344030316351e-17,
+      "var": 9.974659986866641e-17,
+      "es": 9.974659986866641e-17,
+      "score": 8.881784197001252e-16,
+      "strict_hit": 0.0,
+      "scenario_n": 0.0
+    }
+  },
+  "full_history_refitted": false,
+  "all_SI_refitted": false,
+  "analysis_recomputed": true,
+  "analysis_tables": {
+    "model_summary.csv": {
+      "rows": 82,
+      "numeric_max_absolute_errors": {
+        "tau": 0.0,
+        "n_dates": 0.0,
+        "n_tasks": 0.0,
+        "mean_score": 0.0,
+        "breach_rate": 0.0,
+        "mean_var": 0.0,
+        "mean_es": 0.0,
+        "median_es": 0.0,
+        "rank": 0.0
+      }
+    },
+    "primary_score_contrasts.csv": {
+      "rows": 20,
+      "numeric_max_absolute_errors": {
+        "tau": 0.0,
+        "block": 0.0,
+        "delta": 0.0,
+        "point_low": 0.0,
+        "point_high": 0.0,
+        "simultaneous_low": 0.0,
+        "simultaneous_high": 0.0,
+        "family_size": 0.0,
+        "critical": 0.0
+      }
+    },
+    "calibration.csv": {
+      "rows": 656,
+      "numeric_max_absolute_errors": {
+        "tau": 0.0,
+        "n": 0.0,
+        "breaches": 0.0,
+        "nominal_expected": 0.0,
+        "lags": 0.0,
+        "breach_rate": 0.0,
+        "rate_low": 0.0,
+        "rate_high": 0.0,
+        "es_identification_mean": 0.0,
+        "es_identification_low": 0.0,
+        "es_identification_high": 0.0,
+        "joint_statistic": 0.0,
+        "joint_pvalue": 0.0,
+        "joint_rank": 0.0,
+        "conditional_var_statistic": 0.0,
+        "conditional_var_pvalue": 0.0,
+        "conditional_var_rank": 0.0,
+        "conditional_var_n": 0.0,
+        "conditional_joint_statistic": 0.0,
+        "conditional_joint_pvalue": 0.0,
+        "conditional_joint_rank": 0.0,
+        "fewer_than_30_breaches": 0.0,
+        "pvalues_withheld_sparse_tail": 0.0
+      }
+    }
+  },
+  "provenance_digest_resolution": {
+    "joint18_multivariate.py": {
+      "resolved_source": "provenance\\original_scripts\\joint18_multivariate.py",
+      "passed": true
+    },
+    "joint18_pit_precision.py": {
+      "resolved_source": "provenance\\original_scripts\\joint18_pit_precision.py",
+      "passed": true
+    }
+  },
+  "fresh_direct_entrypoint": {
+    "cash_garch_annual_fit_records": 4,
+    "prediction_rows": 24,
+    "skipped": [],
+    "runtime_seconds": 1.3531878999992841,
+    "status": "passed"
+  },
+  "raw_snapshot_last_date": "2026-10-01",
+  "analysis_last_date": "2026-09-30"
+}

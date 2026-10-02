@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "source": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\analysis\\reference_sensitivity_daily.csv",
+  "source_sha256": "479729e4306bd28a5f4c68c5ce77c80436d9ef488c3d86109328970e9130cabb",
+  "script_sha256": "c83c3467f6c1dc4404bc4be2322dba9f7ef830d48f0cf779b330a4333eb3a46c",
+  "annual_rows": 192,
+  "confidence_interval_rows": 144,
+  "models": [
+    "FHS1250",
+    "IN_FHS1250",
+    "IN_TCOP1250"
+  ],
+  "metric": "ES (max across five training references minus min) / EUR-reference ES",
+  "all_years_retained": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "n_full_period_dates": 2046,
+  "blocks": [
+    20,
+    60
+  ],
+  "bootstrap_draws": 5000,
+  "seed": 20261002,
+  "self_check": {
+    "explicit_index_max_error": 0.0,
+    "date_coupling_max_error": 0.0,
+    "note": "Synthetic arithmetic checks, not empirical risk evidence"
+  },
+  "runtime_seconds": 4.926580200000899,
+  "interpretation": "Pointwise 95% percentile intervals for descriptive medians; shared origin indices across eight task/quantile columns within each period; algorithms not refitted; historical reanalysis, not confirmatory or a test of forecast superiority."
+}

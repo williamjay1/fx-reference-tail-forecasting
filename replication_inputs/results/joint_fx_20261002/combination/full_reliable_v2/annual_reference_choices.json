@@ -1,0 +1,818 @@
+[
+  {
+    "model": "IN_FHS_REF_PAST_BEST",
+    "fit_year": 2018,
+    "cutoff": "2017-12-29",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2014-06-25",
+    "training_last_origin": "2017-12-27",
+    "training_last_endpoint": "2017-12-29",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -4.912787499078268,
+      -4.942524323621996,
+      -4.906089598254657,
+      -4.924351198647258,
+      -4.86777743899088
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_FHS_REF_PAST_BEST",
+    "fit_year": 2019,
+    "cutoff": "2018-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2015-06-25",
+    "training_last_origin": "2018-12-27",
+    "training_last_endpoint": "2018-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.055260083687149,
+      -5.051720664094137,
+      -5.032733598141992,
+      -5.03379676943096,
+      -5.046359096634402
+    ],
+    "selected_reference": "EUR",
+    "weights": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_FHS_REF_PAST_BEST",
+    "fit_year": 2020,
+    "cutoff": "2019-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2016-06-22",
+    "training_last_origin": "2019-12-27",
+    "training_last_endpoint": "2019-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.244966985413499,
+      -5.254818839985068,
+      -5.195024548919779,
+      -5.229029043160371,
+      -5.2260353483121635
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_FHS_REF_PAST_BEST",
+    "fit_year": 2021,
+    "cutoff": "2020-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2017-06-22",
+    "training_last_origin": "2020-12-29",
+    "training_last_endpoint": "2020-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.267112830356461,
+      -5.266317175125021,
+      -5.261853814659888,
+      -5.27068310093048,
+      -5.247571569593159
+    ],
+    "selected_reference": "JPY",
+    "weights": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_FHS_REF_PAST_BEST",
+    "fit_year": 2022,
+    "cutoff": "2021-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2018-06-27",
+    "training_last_origin": "2021-12-29",
+    "training_last_endpoint": "2021-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.342347848190051,
+      -5.355774642368541,
+      -5.32545605184775,
+      -5.34796907134906,
+      -5.325283162250935
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_FHS_REF_PAST_BEST",
+    "fit_year": 2023,
+    "cutoff": "2022-12-30",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2019-07-01",
+    "training_last_origin": "2022-12-28",
+    "training_last_endpoint": "2022-12-30",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.146432425989717,
+      -5.147965915848442,
+      -5.081172679288985,
+      -5.1481903891600505,
+      -5.118890924927331
+    ],
+    "selected_reference": "JPY",
+    "weights": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_FHS_REF_PAST_BEST",
+    "fit_year": 2024,
+    "cutoff": "2023-12-29",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2020-06-30",
+    "training_last_origin": "2023-12-27",
+    "training_last_endpoint": "2023-12-29",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.171093846178828,
+      -5.1851056005890115,
+      -5.100542315782639,
+      -5.16315645715067,
+      -5.147776476024336
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_FHS_REF_PAST_BEST",
+    "fit_year": 2025,
+    "cutoff": "2024-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2021-06-29",
+    "training_last_origin": "2024-12-27",
+    "training_last_endpoint": "2024-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.081478675052038,
+      -5.091104075257736,
+      -5.033959816059362,
+      -5.060141206344937,
+      -5.042109521762707
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_TCOP_REF_PAST_BEST",
+    "fit_year": 2018,
+    "cutoff": "2017-12-29",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2014-06-25",
+    "training_last_origin": "2017-12-27",
+    "training_last_endpoint": "2017-12-29",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -4.913873016350211,
+      -4.936235089858206,
+      -4.898364107127337,
+      -4.915968638698596,
+      -4.8608173949439175
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_TCOP_REF_PAST_BEST",
+    "fit_year": 2019,
+    "cutoff": "2018-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2015-06-25",
+    "training_last_origin": "2018-12-27",
+    "training_last_endpoint": "2018-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.049326831104196,
+      -5.0425087553914425,
+      -5.015186462358769,
+      -5.031027462069029,
+      -5.03627776625732
+    ],
+    "selected_reference": "EUR",
+    "weights": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_TCOP_REF_PAST_BEST",
+    "fit_year": 2020,
+    "cutoff": "2019-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2016-06-22",
+    "training_last_origin": "2019-12-27",
+    "training_last_endpoint": "2019-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.242481825153393,
+      -5.248189009247249,
+      -5.169394010288216,
+      -5.228045664094093,
+      -5.2150026117781
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_TCOP_REF_PAST_BEST",
+    "fit_year": 2021,
+    "cutoff": "2020-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2017-06-22",
+    "training_last_origin": "2020-12-29",
+    "training_last_endpoint": "2020-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.26525449749188,
+      -5.263918692389701,
+      -5.2463567172169014,
+      -5.27475660782099,
+      -5.238962456352305
+    ],
+    "selected_reference": "JPY",
+    "weights": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_TCOP_REF_PAST_BEST",
+    "fit_year": 2022,
+    "cutoff": "2021-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2018-06-27",
+    "training_last_origin": "2021-12-29",
+    "training_last_endpoint": "2021-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.341065526462461,
+      -5.34938757152312,
+      -5.315263530640529,
+      -5.352833982620408,
+      -5.315037680648553
+    ],
+    "selected_reference": "JPY",
+    "weights": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_TCOP_REF_PAST_BEST",
+    "fit_year": 2023,
+    "cutoff": "2022-12-30",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2019-07-01",
+    "training_last_origin": "2022-12-28",
+    "training_last_endpoint": "2022-12-30",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.147589183112263,
+      -5.147232874158639,
+      -5.075992451285439,
+      -5.149826683470457,
+      -5.111445193485032
+    ],
+    "selected_reference": "JPY",
+    "weights": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_TCOP_REF_PAST_BEST",
+    "fit_year": 2024,
+    "cutoff": "2023-12-29",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2020-06-30",
+    "training_last_origin": "2023-12-27",
+    "training_last_endpoint": "2023-12-29",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.1669099987567275,
+      -5.17457537201113,
+      -5.091082226054022,
+      -5.15968120280352,
+      -5.135390812559865
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  },
+  {
+    "model": "IN_TCOP_REF_PAST_BEST",
+    "fit_year": 2025,
+    "cutoff": "2024-12-31",
+    "selection_quantile": 0.95,
+    "selection_tasks": [
+      [
+        "funded_assets",
+        "EUR"
+      ],
+      [
+        "funded_assets",
+        "USD"
+      ],
+      [
+        "net_cashflows",
+        "EUR"
+      ],
+      [
+        "net_cashflows",
+        "USD"
+      ]
+    ],
+    "selection_dates": 900,
+    "training_first_origin": "2021-06-29",
+    "training_last_origin": "2024-12-27",
+    "training_last_endpoint": "2024-12-31",
+    "references": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CHF"
+    ],
+    "prior_date_and_task_mean_scores": [
+      -5.07176469924946,
+      -5.084541204632902,
+      -5.021726458115447,
+      -5.055731415067356,
+      -5.024451551301441
+    ],
+    "selected_reference": "USD",
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "reuse": "same scenario member for all four tasks and q95/q99"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "years": [
+    2018,
+    2021,
+    2025
+  ],
+  "reps_per_origin": 200,
+  "block": 20,
+  "seed": 20261002,
+  "origins": [
+    "2018-01-02",
+    "2021-01-04",
+    "2025-01-02"
+  ],
+  "expected_fit_attempts": 12000,
+  "recorded_fit_attempts": 12000,
+  "failed_coordinate_fits": 0,
+  "all_failures_retained": true,
+  "original_known_window_used_for_filter_and_empirical_residuals": true,
+  "jointly_resampled_five_reference_estimation_windows": true,
+  "bootstraps_process_or_true_ES": false,
+  "exposed_historical_origins": true,
+  "runtime_seconds": 339.0413414000068,
+  "source_sha256": "ecf719e1f39b73221c3bf1339fcb6294e26da046974b3b73e554ba85e0453dfd",
+  "script_sha256": "fe43eea3b0c5ca0017563dcd59c0bbed475a78d07966b1da09d6e6cbcc1c693e",
+  "maximum_identity_error": 1.8431436932253575e-17
+}

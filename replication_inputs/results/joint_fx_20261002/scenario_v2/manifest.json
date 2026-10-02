@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "pilot": false,
+  "years": [
+    2013,
+    2025
+  ],
+  "origins": 3324,
+  "predictions": 957312,
+  "actual_garch_fits": 260,
+  "scenario_power": 12,
+  "runtime_seconds": 731.5192855000205,
+  "maximum_cash_identity_residual": 0.0010986328125,
+  "maximum_scale_adjusted_cash_identity_residual": 1.1174217116337007e-14,
+  "maximum_common_HS_coordinate_error": 3.469446951953614e-18,
+  "maximum_full_covariance_coordinate_error": 1.7618285302889447e-19,
+  "source_sha256": "ecf719e1f39b73221c3bf1339fcb6294e26da046974b3b73e554ba85e0453dfd",
+  "script_sha256": "a7c8ece8a3c502bc7ef966b703abd896d951b466aa194fb86975c5f66f8cc03a",
+  "model_script_sha256": "64a987f50b415ebe1e055c84c9419f17db6f7b60590286552c5afa84bd54eea9",
+  "prediction_sha256": "2de4f7b06c6a869920a0f96a155504ce20190734f22b4c8c17f49ce8d155bb5d",
+  "seed": 20261002,
+  "post_exposure": true,
+  "prior_only_annual_fit": true,
+  "copied_quantile_predictions": false,
+  "student_t_log_marginals": false,
+  "reporting_currency_risk_not_invariant": true
+}

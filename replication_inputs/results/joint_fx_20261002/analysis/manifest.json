@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "n_dates": 2046,
+  "n_models": 41,
+  "evaluation_first": "2018-01-02",
+  "evaluation_last": "2025-12-29",
+  "primary_contrasts": [
+    "IN_FHS1250@EUR",
+    "FHS1250@EUR",
+    "EWMA_GAUSS",
+    "EWMA_SELFNORMALIZED",
+    "TAYLOR_OPT"
+  ],
+  "bootstrap_draws": 5000,
+  "blocks": [
+    20,
+    60
+  ],
+  "seed": 20261002,
+  "historical_reanalysis": true,
+  "bootstrap_refits_algorithms": false,
+  "sources": {
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\internal_full\\predictions.csv": "277adbe922be59d819b993fdec11da9229a1ff3b70e375e86346717aa5dc1fc2",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\scenario_v2\\predictions.csv": "2de4f7b06c6a869920a0f96a155504ce20190734f22b4c8c17f49ce8d155bb5d",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\warmup_2013_2017\\predictions.csv": "bada6dd6e7a07066c068b678905ced294220ab6eb5da84da3f5153158698069b",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\full_prior_aligned\\predictions.csv": "221802ec11613605d4c1ba4ba5149937950c44bcd2efc74a9614c80ff3fc1486",
+    "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\combination\\full_reliable_v2\\predictions.csv": "a8debfa38e895ed5b47752109201c4ad4c129e73bd30953f872f040ff4dd8e7d"
+  },
+  "script_sha256": "32b831ac70a8792bab710b141945367311b6862a01979fe8831f55ee427e75a9"
+}

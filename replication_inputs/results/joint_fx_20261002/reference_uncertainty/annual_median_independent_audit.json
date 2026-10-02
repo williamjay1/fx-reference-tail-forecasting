@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "Independent CSV plus statistics.median annual-value reconstruction; bootstrap index/coupling self checks are recorded in manifest and do not independently certify all empirical intervals.",
+  "annual_groups_checked": 192,
+  "maximum_annual_median_error": 0,
+  "input_sha256": "479729e4306bd28a5f4c68c5ce77c80436d9ef488c3d86109328970e9130cabb"
+}

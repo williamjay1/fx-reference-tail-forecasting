@@ -1,0 +1,8 @@
+.work/
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.venv/
+.env
+*.partial

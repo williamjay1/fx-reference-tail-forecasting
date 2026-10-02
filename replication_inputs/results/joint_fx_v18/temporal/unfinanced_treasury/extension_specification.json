@@ -1,0 +1,23 @@
+{
+  "recorded_before_new_outcomes_evaluation": true,
+  "historical_exposure_acknowledged": true,
+  "confirmatory": false,
+  "foreign_values_at_cutoff_over_N": [
+    0.5,
+    0.3,
+    -0.15,
+    -0.05
+  ],
+  "eur_quantity_over_N": 0.0,
+  "cutoff_value_over_N": 0.6,
+  "financing_variant": "none; distinct position from EUR-financed treasury",
+  "horizons": [
+    1
+  ],
+  "original_financed_outputs_retained": true,
+  "not_selected_by_score": true,
+  "risk": "future-start value loss; no carry/interest/options or capital saving",
+  "years": [
+    2026
+  ]
+}

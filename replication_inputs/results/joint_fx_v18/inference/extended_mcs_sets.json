@@ -1,0 +1,277 @@
+[
+  {
+    "study": "temporal",
+    "horizon": 1,
+    "tau": 0.95,
+    "block": 20,
+    "n_dates": 189,
+    "tasks_per_date": 4,
+    "family_n": 9,
+    "included_n": 7,
+    "included": [
+      "EWMA_GAUSS",
+      "EWMA_SELFNORMALIZED",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 0.3131373725254949
+  },
+  {
+    "study": "temporal",
+    "horizon": 1,
+    "tau": 0.95,
+    "block": 60,
+    "n_dates": 189,
+    "tasks_per_date": 4,
+    "family_n": 9,
+    "included_n": 5,
+    "included": [
+      "EWMA_GAUSS",
+      "EWMA_SELFNORMALIZED",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP"
+    ],
+    "mixture_mcs_pvalue": 0.03279344131173765
+  },
+  {
+    "study": "temporal",
+    "horizon": 1,
+    "tau": 0.99,
+    "block": 20,
+    "n_dates": 189,
+    "tasks_per_date": 4,
+    "family_n": 9,
+    "included_n": 9,
+    "included": [
+      "EWMA_GAUSS",
+      "EWMA_SELFNORMALIZED",
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 0.10557888422315537
+  },
+  {
+    "study": "temporal",
+    "horizon": 1,
+    "tau": 0.99,
+    "block": 60,
+    "n_dates": 189,
+    "tasks_per_date": 4,
+    "family_n": 9,
+    "included_n": 2,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF"
+    ],
+    "mixture_mcs_pvalue": 0.009998000399920015
+  },
+  {
+    "study": "horizons",
+    "horizon": 5,
+    "tau": 0.95,
+    "block": 20,
+    "n_dates": 2042,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 1.0
+  },
+  {
+    "study": "horizons",
+    "horizon": 5,
+    "tau": 0.95,
+    "block": 60,
+    "n_dates": 2042,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 1.0
+  },
+  {
+    "study": "horizons",
+    "horizon": 5,
+    "tau": 0.99,
+    "block": 20,
+    "n_dates": 2042,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 1.0
+  },
+  {
+    "study": "horizons",
+    "horizon": 5,
+    "tau": 0.99,
+    "block": 60,
+    "n_dates": 2042,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 1.0
+  },
+  {
+    "study": "horizons",
+    "horizon": 20,
+    "tau": 0.95,
+    "block": 20,
+    "n_dates": 2027,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 0.7340531893621276
+  },
+  {
+    "study": "horizons",
+    "horizon": 20,
+    "tau": 0.95,
+    "block": 60,
+    "n_dates": 2027,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 0.7858428314337133
+  },
+  {
+    "study": "horizons",
+    "horizon": 20,
+    "tau": 0.95,
+    "block": 120,
+    "n_dates": 2027,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 0.7504499100179964
+  },
+  {
+    "study": "horizons",
+    "horizon": 20,
+    "tau": 0.99,
+    "block": 20,
+    "n_dates": 2027,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 0.9542091581683664
+  },
+  {
+    "study": "horizons",
+    "horizon": 20,
+    "tau": 0.99,
+    "block": 60,
+    "n_dates": 2027,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 0.9564087182563488
+  },
+  {
+    "study": "horizons",
+    "horizon": 20,
+    "tau": 0.99,
+    "block": 120,
+    "n_dates": 2027,
+    "tasks_per_date": 6,
+    "family_n": 7,
+    "included_n": 7,
+    "included": [
+      "HS1250",
+      "IN_FHS1250@CHF",
+      "IN_FHS1250@EUR",
+      "IN_FHS1250@GBP",
+      "IN_FHS1250@JPY",
+      "IN_FHS1250@USD",
+      "IN_FHS_REF_POOL"
+    ],
+    "mixture_mcs_pvalue": 0.9536092781443711
+  }
+]

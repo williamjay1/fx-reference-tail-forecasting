@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "source_sha256": "9f19e57d743ef4fc5c60385dbac7fe6ca54a9f6a7d0b05c382a036217bc44550",
+  "script_sha256": "035a0e01bd637bd8469c91f271a5043dc55a421d7223802df78625b54de89d18",
+  "bootstrap_draws": 5000,
+  "seed": 20261002,
+  "blocks": [
+    20,
+    60
+  ],
+  "resampling_unit": "common origin date, all currencies/books/reportstogether",
+  "bootstrap_refits_parameters": false,
+  "exposed_historical_data": true,
+  "confirmatory": false,
+  "score_is_joint_var_es_not_full_distribution": true,
+  "random_books_not_independent_investors": true,
+  "twenty_interval_hold_overlap": "60/120 primary blocks;20 short-block sensitivity",
+  "temporal_small_sample": "Only189 origins;99expected1.89breaches/task;unfinanced treasury exact systems only. No tail asymptotic pvalues.",
+  "runtime_seconds": 0.4378652000159491,
+  "models": 7,
+  "origin_support_per_horizon": {
+    "1": 189
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "records_checked": 756,
+  "cash_valuation": "actual quantities and numeraire prices; no compact loss formula",
+  "garch_recursion": "plain Python/NumPy from recorded parameters, no compiled forecasting helper",
+  "es": "sorted tail integral with fractional VaR atom, not hinge helper",
+  "maximum_errors": {
+    "var": 1.7763568394002505e-15,
+    "es": 1.186550857568136e-15,
+    "actual_loss": 0.0,
+    "score": 1.2178702490928117e-11
+  },
+  "check_dates": {
+    "horizons": [
+      "2018-01-02",
+      "2019-06-03",
+      "2020-03-16",
+      "2021-12-01",
+      "2022-09-22",
+      "2023-05-02",
+      "2024-08-01",
+      "2025-01-02"
+    ],
+    "temporal": [
+      "2026-01-02",
+      "2026-04-01",
+      "2026-08-03"
+    ]
+  },
+  "runtime_seconds": 5.314497300016228
+}

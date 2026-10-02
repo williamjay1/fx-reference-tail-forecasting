@@ -1,0 +1,30 @@
+{
+  "title": "FX reference currency tail forecasting: replication code and data",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Zhang, Junjie",
+      "orcid": "0009-0004-8821-4018",
+      "affiliation": "Shanghai Academy of Global Governance & Area Studies; School of Economics and Finance, Shanghai International Studies University, Shanghai 201620, China"
+    }
+  ],
+  "description": "Replication code, immutable ECB source snapshot, derived data, fitted parameters, forecasts and numerical audits for Forecasting foreign exchange cash tail risk under reference currency uncertainty. Software: MIT; original derived research outputs: CC BY 4.0; ECB source observations retain ECB reuse conditions. See DATA_LICENSE.md. Exploratory retrospective analysis; no trading-profit claim or independent confirmatory holdout. No external funding.",
+  "keywords": [
+    "foreign exchange",
+    "tail risk",
+    "forecast evaluation",
+    "VaR",
+    "expected shortfall"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/williamjay1/fx-reference-tail-forecasting",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

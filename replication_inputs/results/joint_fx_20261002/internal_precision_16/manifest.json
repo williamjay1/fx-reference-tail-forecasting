@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "precision": true,
+  "scenario_power": 16,
+  "origins": 12,
+  "predictions": 1440,
+  "runtime_seconds": 16.635866500000702,
+  "source_hashes": {
+    "joint17_internal_scenarios.py": "e8e9611557c1a45d0f2f730d98237ed5203a371fbd6b97d18628864f514e0d0b",
+    "joint17_models.py": "64a987f50b415ebe1e055c84c9419f17db6f7b60590286552c5afa84bd54eea9"
+  },
+  "maximum_identity_error": 7.632783294297951e-17,
+  "raw_radius_max": 4.0819921221697735,
+  "prediction_sha256": "75776240869af6e527f616bfa5aaa1b702b5deca074ac425a13b9e654be9a993",
+  "post_stress_exploratory": true,
+  "original_data_clipped": false,
+  "parameters_reused": true,
+  "changed_innovation_law": true,
+  "copula_empirical_margins": "discrete",
+  "seed": 20261002
+}

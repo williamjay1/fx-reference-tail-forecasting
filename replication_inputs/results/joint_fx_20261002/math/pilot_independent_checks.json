@@ -1,0 +1,96 @@
+{
+  "status": "passed_key_math_checks_with_P2_qualifications",
+  "no_model_retraining": true,
+  "script_hashes": {
+    "joint17_build_data.py": "6d4b091e3df94b1d4cfb8dd06a8baa0db712dd491c838fb1382ebbe96247690a",
+    "joint17_models.py": "c79aef4fdc672a9a92a2e46e4a148ff23cb6c6f96d1305548475c036100b946a",
+    "joint17_run_scenarios.py": "34c7a7ac5c4d8b8368a6d20de5396c60844a44e47c30dc13c4b57b8ce59a2a86"
+  },
+  "pilot_prediction_sha256": "62095e7aba2f797524d24684be9f96d118530caa71c2cebb5b39aee2ecd46cc5",
+  "checks": {
+    "observed_future_start_fixed_quantity_cash": {
+      "max_abs_error": 3.2534738791945017e-15,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    "task_date_offsets": {
+      "passed": true,
+      "distinct_origin_book_report_rows": 96,
+      "origins": 24
+    },
+    "all_saved_FZ0_scores_via_lower_return_transform": {
+      "max_abs_error": 3.0020430585864233e-13,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    "all_saved_tail_identification_residuals": {
+      "max_abs_error": 1.805413457622862e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    "saved_domain_hits_and_finite_scores": {
+      "passed": true,
+      "forecast_rows": 6912
+    },
+    "fractional_tail_integral": {
+      "passed": true,
+      "cases": 36,
+      "max_var_error": 0.0,
+      "max_es_error": 6.938893903907228e-17
+    },
+    "five_basis_HS_negative_control": {
+      "passed": true,
+      "max_path_error": 1.734723475976807e-18,
+      "max_cash_error": 0.0,
+      "max_VaR_error": 0.0,
+      "max_ES_error": 0.0
+    },
+    "GARCH_prefix_unchanged_when_future_returns_altered": {
+      "max_abs_error": 0.0,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    "known_label_indices": {
+      "passed": true,
+      "origin_t": 4610,
+      "annual_cutoff_t": 4609,
+      "training_last_return_index": 4608,
+      "known_last_return_index": 4609,
+      "FHS_last_second_step_residual_index": 4609,
+      "forecast_h_t_uses_last_return": 4609,
+      "all_training_and_shock_labels_known": true
+    },
+    "EWMA_current_covariance_prior_prefix_recursion": {
+      "max_abs_error": 0.0,
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    "fullcov_radial_theoretical_law_closure": {
+      "passed": true,
+      "maximum_Mahalanobis_squared_radius_error": 9.094947017729282e-13,
+      "maximum_covariance_recovery_error": 6.776263578034403e-21,
+      "maximum_orthogonal_coupling_identity_error": 1.3322676295501878e-15,
+      "interpretation": "Same covariance and radius distribution; this proves elliptical probability law closure, not equality of separately generated finite QMC paths."
+    },
+    "gaussian_isotropic_ridge_coordinate_departure": {
+      "maximum_effective_covariance_difference": 1.0000006600780278e-14,
+      "status": "P2 exact-closure qualification if each coordinate independently adds I*1e-14; canonical EUR-only generation does not leak."
+    },
+    "independent_radial_MC_is_not_identical_coupling": {
+      "maximum_path_difference": 0.06811638728508154,
+      "passed": true,
+      "interpretation": "Expected rotation/coupling difference. Must not attribute this finite simulation noise to non-equivariant probability law."
+    }
+  },
+  "issues": [
+    {
+      "severity": "P2",
+      "issue": "Clock communicated as 18 Berlin but executed and manifest state planned18 UTC; synchronize protocol/text."
+    },
+    {
+      "severity": "P2",
+      "issue": "Gaussian isotropic ridge means exact independent-coordinate law closure is approximate; remove ridge on SPD or transform same perturbation."
+    }
+  ],
+  "scope": "Read-only root script review plus output/sign/formula/prefix/control checks; no independent likelihood optimization, copula fitting or full retraining."
+}

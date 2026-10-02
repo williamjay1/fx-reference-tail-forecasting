@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Independent standard-library support/score/label-clock audit, not model retraining or integral replication",
+  "prediction_rows": 30672,
+  "unique_keys": 30672,
+  "annual_fits": 20,
+  "score_max_abs_error": 0.0,
+  "actual_max_abs_error": 9.996344030316351e-17,
+  "min_nu": 4.2383141399588515,
+  "min_converged_starts": 3,
+  "precision_rows": 120,
+  "max_relative_es_difference": 0.0031876715896781162,
+  "errors": [],
+  "prediction_sha256": "bada6dd6e7a07066c068b678905ced294220ab6eb5da84da3f5153158698069b"
+}

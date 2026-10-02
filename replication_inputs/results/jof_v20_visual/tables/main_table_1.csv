@@ -1,0 +1,14 @@
+﻿Forecast system,Score 95%,Score 99%,Hits 95%,Hits 99%
+Common HS1250,-5.09302,-4.61463,4.67%,1.14%
+"Ordinary FHS1250, EUR fit",-5.16904,-4.68451,4.74%,1.00%
+"IN-FHS, EUR fit",-5.17835,-4.72156,4.58%,1.14%
+IN-FHS reference mixture,-5.17798,-4.72930,4.25%,1.00%
+Gaussian EWMA,-5.18140,-4.59084,5.17%,2.09%
+Internal elliptical EWMA,-5.18215,-4.59770,5.08%,2.05%
+"Dynamic scalar BEKK, internal radial",-5.14745,-4.64087,3.96%,1.42%
+Direct cash GARCH,-5.18043,-4.70620,5.12%,1.30%
+Taylor optimized,-5.18238,-4.71927,4.83%,1.43%
+Taylor–Wang relative,-5.17764,-4.70871,4.81%,1.19%
+Taylor–Wang ridge,-5.19555,-4.72814,4.50%,1.36%
+Equal functional mean,-5.19282,-4.73927,4.39%,1.21%
+Prior-selected IN-FHS reference,-5.16555,-4.69449,4.09%,1.27%

@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "n": 671088,
+  "exact_ties": 0,
+  "within_1e_12": 0,
+  "records": [
+    {
+      "file": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\internal_full\\predictions.csv",
+      "n": 245520,
+      "exact_ties": 0,
+      "within_1e_12": 0,
+      "minimum_gap": 4.67547999006071e-08
+    },
+    {
+      "file": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\scenario_v2\\predictions.csv",
+      "n": 261888,
+      "exact_ties": 0,
+      "within_1e_12": 0,
+      "minimum_gap": 2.853141513499413e-08
+    },
+    {
+      "file": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\warmup_2013_2017\\predictions.csv",
+      "n": 0,
+      "exact_ties": 0,
+      "within_1e_12": 0,
+      "minimum_gap": null
+    },
+    {
+      "file": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\direct\\full_prior_aligned\\predictions.csv",
+      "n": 49104,
+      "exact_ties": 0,
+      "within_1e_12": 0,
+      "minimum_gap": 7.578412996537415e-07
+    },
+    {
+      "file": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\combination\\full_reliable_v2\\predictions.csv",
+      "n": 114576,
+      "exact_ties": 0,
+      "within_1e_12": 0,
+      "minimum_gap": 1.6706537974732483e-07
+    }
+  ],
+  "scope": "Realized ties only; does not prove the unknown conditional loss law has no atom at a future quantile."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "n_origins": 32,
+  "prediction_rows": 1536,
+  "primary_exact_model_has_no_integration_error": true,
+  "seed": 20263028,
+  "runtime_seconds": 23.12538390001282,
+  "prediction_sha256": "e86aad56241946b9f1fdfa1035771e39fb35ab1e1dd7ad714e86a4a15bc73e77",
+  "script_sha256": "c4f65bdf7b07c7e9b696c82cd6a4ef28e65a26ca4094c0022dd183a8c3a16136",
+  "not_a_uniform_error_bound": true,
+  "covariance_controls_remain_secondary": true
+}

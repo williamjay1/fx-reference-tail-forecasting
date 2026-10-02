@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "origins": 2046,
+  "native_forecasts": 81840,
+  "diagnostic_rows": 16368,
+  "input_sha256": "277adbe922be59d819b993fdec11da9229a1ff3b70e375e86346717aa5dc1fc2",
+  "existing_ES_diagnostic_max_difference": 6.045164369083977e-14,
+  "minimum_native_VaR": 0.0021617231635448,
+  "minimum_native_ES": 0.0029322408128238,
+  "interpretation": "descriptive re-analysis; symmetric mean-absolute-functional denominator; not independent validation",
+  "no_model_fitting": true,
+  "no_new_data": true
+}

@@ -1,0 +1,184 @@
+{
+  "status": "3_native_vector_figures_and_1200dpi_rasters",
+  "versions": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "matplotlib": "3.11.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.1"
+  },
+  "inputs": {
+    "dispersion": {
+      "path": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\inference\\anchor_free_reference_daily.csv",
+      "sha256": "9b12c4b550e61a1567d2621e5a35ec099aa5fdaccef97a0635ee5d93af3f0d4c"
+    },
+    "contrasts": {
+      "path": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\analysis\\primary_score_contrasts.csv",
+      "sha256": "8ea5e5e0b409c7497371a0c9c7a09429744aae0bdc6682d7ae96e3628bcaaa1f"
+    },
+    "pit": {
+      "path": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_v18\\pit_precision\\full96\\pit.csv",
+      "sha256": "224807b1301d8ed90c69c5cbbc93f9209f90873c8f9b2f5d835a1e8fa212b8d4"
+    },
+    "predictions": {
+      "path": "D:\\MLWork\\FXTailRisk\\results\\joint_fx_20261002\\internal_full\\predictions.csv",
+      "sha256": "277adbe922be59d819b993fdec11da9229a1ff3b70e375e86346717aa5dc1fc2"
+    }
+  },
+  "figures": [
+    {
+      "name": "figure1_reference_sensitivity_nature",
+      "description": "Reference ES forecast dispersion over time",
+      "physical_mm": [
+        179.99999491373697,
+        167.99999525282118
+      ],
+      "pixels": [
+        8503,
+        7937
+      ],
+      "dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "vector_has_raster": false,
+      "svg_editable_text": true,
+      "pdf_fonts": [
+        [
+          15,
+          "ttf",
+          "Type0",
+          "EAQZZP+ArialMT",
+          "F1",
+          "Identity-H"
+        ],
+        [
+          22,
+          "ttf",
+          "Type0",
+          "CPRHJU+Arial-BoldMT",
+          "F2",
+          "Identity-H"
+        ]
+      ],
+      "layout_audit": {
+        "clipped_text": [],
+        "text_overlaps": [],
+        "text_line_crossings": [],
+        "text_items": 56
+      },
+      "origins_per_series": 2046,
+      "panels": 8,
+      "rolling_window": 60,
+      "minimum_observations": 30,
+      "band": "descriptive within-window 10th\u201390th percentiles",
+      "common_y_upper_percent": 80.0
+    },
+    {
+      "name": "figure2_score_contrasts_nature",
+      "description": "Mixture score contrasts and simultaneous intervals",
+      "physical_mm": [
+        179.99999491373697,
+        92.99999737209743
+      ],
+      "pixels": [
+        8503,
+        4393
+      ],
+      "dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "vector_has_raster": false,
+      "svg_editable_text": true,
+      "pdf_fonts": [
+        [
+          15,
+          "ttf",
+          "Type0",
+          "GTHXGD+ArialMT",
+          "F1",
+          "Identity-H"
+        ],
+        [
+          22,
+          "ttf",
+          "Type0",
+          "MWOAYY+Arial-BoldMT",
+          "F2",
+          "Identity-H"
+        ]
+      ],
+      "layout_audit": {
+        "clipped_text": [],
+        "text_overlaps": [],
+        "text_line_crossings": [],
+        "text_items": 23
+      },
+      "intervals": 20,
+      "family_size_per_tail": 5,
+      "resamples": 5000,
+      "all_intervals_include_zero": true,
+      "different_tail_x_scales": true
+    },
+    {
+      "name": "figure3_pit_calibration_nature",
+      "description": "Predictive cash distributions and rolling tail calibration",
+      "physical_mm": [
+        179.99999491373697,
+        119.99999660915798
+      ],
+      "pixels": [
+        8503,
+        5669
+      ],
+      "dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "vector_has_raster": false,
+      "svg_editable_text": true,
+      "pdf_fonts": [
+        [
+          15,
+          "ttf",
+          "Type0",
+          "FZWUQC+ArialMT",
+          "F1",
+          "Identity-H"
+        ],
+        [
+          22,
+          "ttf",
+          "Type0",
+          "BHPUCF+Arial-BoldMT",
+          "F2",
+          "Identity-H"
+        ]
+      ],
+      "layout_audit": {
+        "clipped_text": [],
+        "text_overlaps": [],
+        "text_line_crossings": [],
+        "text_items": 58
+      },
+      "panels": 4,
+      "pit_bins": [
+        0.0,
+        0.1,
+        0.2,
+        0.30000000000000004,
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "pit_n_per_model_and_book": 2046,
+      "rolling_window": 250,
+      "strict_breach_definition": true,
+      "pit_y_upper": 0.14
+    }
+  ]
+}

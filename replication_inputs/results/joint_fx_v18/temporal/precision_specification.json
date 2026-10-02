@@ -1,0 +1,18 @@
+{
+  "recorded_before_precision_calculation": true,
+  "origin_selection": "every sixth eligible2026 origin, starting first; calendar-only",
+  "n_origins": 32,
+  "powers": [
+    14,
+    16,
+    18
+  ],
+  "models": [
+    "EWMA_GAUSS",
+    "EWMA_SELFNORMALIZED"
+  ],
+  "fixedseed": 20263028,
+  "main_exact_enumeration_unaffected": true,
+  "not_preregistered": true,
+  "not_model_selection": true
+}
