@@ -3,6 +3,7 @@ message: "Please cite this versioned research software and data package."
 type: software
 title: "FX reference currency tail forecasting: replication code and data"
 version: 1.0.0
+doi: "10.5281/zenodo.23106627"
 authors:
   - family-names: Zhang
     given-names: Junjie
